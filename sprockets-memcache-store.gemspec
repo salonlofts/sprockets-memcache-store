@@ -1,11 +1,7 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sprockets/memcache/store/version'
-
 Gem::Specification.new do |spec|
   spec.name          = "sprockets-memcache-store"
-  spec.version       = Sprockets::Memcache::Store::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = ["Alex MacCaw"]
   spec.email         = ["maccman@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}

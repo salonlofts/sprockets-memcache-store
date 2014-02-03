@@ -4,8 +4,8 @@ Gem::Specification.new do |spec|
   spec.version       = '0.0.1'
   spec.authors       = ["Alex MacCaw"]
   spec.email         = ["maccman@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A Memcache store for Sprockets using Dalli}
+  spec.summary       = %q{A Memcache store for Sprockets using Dalli}
   spec.homepage      = ""
   spec.license       = "MIT"
 

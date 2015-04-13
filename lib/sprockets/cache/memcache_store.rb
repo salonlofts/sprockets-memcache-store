@@ -7,7 +7,7 @@ module Sprockets
     #     environment.cache = Sprockets::Cache::MemcacheStore.new
     #
     class MemcacheStore
-      def initialize(key_prefix = 'sprockets')
+      def initialize(client = nil, key_prefix = 'sprockets')
         @memcache   = Dalli::Client.new
         @key_prefix = key_prefix
       end

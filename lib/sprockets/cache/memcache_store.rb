@@ -1,7 +1,7 @@
 require 'dalli'
 
 module Sprockets
-  module Cache
+  class Cache
     # A simple Memcache cache store.
     #
     #     environment.cache = Sprockets::Cache::MemcacheStore.new
